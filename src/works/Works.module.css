@@ -1,0 +1,19 @@
+.works{
+    background: aquamarine;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.workItems{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 999px) {
+    .workItems{
+        justify-content: center;
+    }
+}
+

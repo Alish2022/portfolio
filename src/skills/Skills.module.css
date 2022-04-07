@@ -1,0 +1,15 @@
+.skills{
+    background: aliceblue;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.title{
+    text-align: center;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
